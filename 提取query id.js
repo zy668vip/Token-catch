@@ -6,6 +6,8 @@
 // @author       You
 // @match        *://*/*
 // @grant        none
+// @updateURL    https://github.com/zy668vip/Token-catch/raw/main/%E6%8F%90%E5%8F%96query%20id.js
+// @downloadURL  https://github.com/zy668vip/Token-catch/raw/main/%E6%8F%90%E5%8F%96query%20id.js
 // ==/UserScript==
 
 (function() {
