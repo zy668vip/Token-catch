@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         token提取脚本
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  提取本地存储中键名为 token 的值并提供按钮以便复制到剪贴板
 // @author       You
 // @match        *://*/*
@@ -36,15 +36,9 @@
             document.body.appendChild(textarea);
             textarea.select();
             try {
-                const successful = document.execCommand('copy');
-                if (successful) {
-                    alert('数据已复制到剪贴板');
-                } else {
-                    alert('复制失败');
-                }
+                document.execCommand('copy');
             } catch (err) {
                 console.error('复制到剪贴板失败:', err);
-                alert('复制到剪贴板失败: ' + err.message);
             }
             document.body.removeChild(textarea);
         });
