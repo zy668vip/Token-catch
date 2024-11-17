@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         番茄token提取脚本
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.1
 // @description  提取本地存储中键名为 token 的值并提供按钮以便复制到剪贴板
 // @author       You
 // @match        *://*/*
