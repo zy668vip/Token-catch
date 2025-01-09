@@ -1,18 +1,10 @@
 // ==UserScript==
-// @name         Mobile Check Bypass
-// @version      1.5
-// @namespace    Violentmonkey Scripts
-// @description  Bypass mobile check in most crypto bots. Feel free to insert @match sections to add new bots. Updated: 09.10.2024
-// @author       Ergamon
-// @match        *://bluefarming.xyz/*
-// @match        *://app.w-coin.io/*
-// @match        *://thevertus.app/*
-// @match        *://app.diamore.co/*
-// @match        *://app.city-holder.com/*
-// @match        *://game.xempire.io/*
-// @match        *://app.bums.bot/*
-// @match        *://webapp.game.dropee.xyz/*
-// @match        *://bybitcoinsweeper.com/*
+// @name         token提取脚本
+// @namespace    http://tampermonkey.net/
+// @version      1.3
+// @description  提取本地存储中键名为 token 的值并提供按钮以便复制到剪贴板
+// @author       You
+// @match        *://*/*
 // @grant        none
 // @updateURL    https://github.com/zy668vip/Token-catch/raw/main/%E6%8F%90%E5%8F%96token.js
 // @downloadURL  https://github.com/zy668vip/Token-catch/raw/main/%E6%8F%90%E5%8F%96token.js
